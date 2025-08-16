@@ -28,3 +28,11 @@ const greet = () => console.log("Helo");            //no parameters
 const student3 = (name, age) => ({ name, age });    //to return object, wrap it in paranthesis
 greet();
 console.log("Square: ", square(9), "Student3: ", student3('Vivi', 20));
+
+// Template literals: new way of working with strings
+const name = 'Vivi';
+const age = 20;
+console.log(`My name is ${name} and i am ${age} years old`);   // easy interpolation
+console.log(`My name is ${name}                                
+I am ${age} years old`);                                       // multiline string
+console.log(`My name is ${name} and i am ${age + 1} years old`);
